@@ -40,11 +40,20 @@ class Request {
 
     /**
      * @param $endpoint
-     * @param $id
+     * @param array $options
      * @return mixed
      */
-    public function get($endpoint, $id){
-        return $this->_makeRequest($endpoint . "/" . $id);
+    public function get($endpoint, $options = []){
+        return $this->_makeRequest(config('acton.api_route') .$endpoint, $options);
+    }
+
+    /**
+     * @param $endpoint
+     * @param array $options
+     * @return mixed
+     */
+    public function post($endpoint, $options = []){
+        return $this->_makeRequest(config('acton.api_route') .$endpoint, $options, "POST");
     }
 
     /**

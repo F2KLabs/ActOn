@@ -11,5 +11,6 @@ return [
      for a successful connection to be made with the Buzzsumo API
    |
    */
-    "api_key" => ""
+    "api_key" => "",
+    "api_route" => "/api/1"
 ];

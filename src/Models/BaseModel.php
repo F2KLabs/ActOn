@@ -12,7 +12,7 @@ use Illuminate\Support\Collection;
 use F2klabs\Govtrack\request\Request;
 use F2klabs\Govtrack\response\Response;
 
-class Base {
+class BaseModel {
 
     public $attributes;
 

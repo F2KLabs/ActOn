@@ -1,5 +1,5 @@
 {
-  "name": "f2klabs/govtrack",
+  "name": "f2klabs/acton",
   "description": "API Wrapper Package for GovTracks.com",
   "type": "library",
   "license": "MIT",
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "F2klabs\\Govtrack\\": "src"
+      "F2klabs\\ActOn\\": "src"
     }
   }
 }
